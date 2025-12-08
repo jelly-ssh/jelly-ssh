@@ -53,7 +53,7 @@ Accept the defaults and **don’t lose your key**. Jelly uses it as your identit
 ### 2️⃣ Connect to Jelly
 
 ```bash
-ssh jellyssh.xyz
+ssh jellyshell.dev
 ```
 
 * **Auth:** SSH public key only - no passwords, no web signup form
