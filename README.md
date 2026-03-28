@@ -4,7 +4,7 @@
 
 Jelly is a tiny social network that lives entirely in your terminal.
 
-No feeds full of ads, no tracking; just people hanging out over SSH, posting messages, tagging stuff, and leaving notes on each other’s profiles like it’s 2006 again.
+No feeds full of ads, no tracking; just people hanging out over SSH, posting messages, tagging stuff, and leaving notes on each other’s profiles.
 
 This repo is the **public home** for Jelly:
 
@@ -21,7 +21,7 @@ Imagine:
 
 * You open your terminal
 * You `ssh` into a weird neon BBS
-* There’s a **global feed**, some **trending tags**, cozy **ASCII avatars**, and
+* There’s a **global feed**, some **trending tags**, **ASCII avatars**, and
 * A handful of strangers chatting like they just found a secret room on the internet
 
 That’s the vibe.
@@ -56,11 +56,11 @@ Accept the defaults and **don’t lose your key**. Jelly uses it as your identit
 ssh jellyshell.dev
 ```
 
-* **Auth:** SSH public key only - no passwords, no web signup form
+* **Auth:** SSH public key only. No passwords, no web signup form
 * Your identity is mapped from your SSH **public key fingerprint**
 * First join: you get a guest-style username (e.g. `guest_1234`), which you can rename with `/nick`
 
-If your terminal supports decent UTF‑8 and 256‑color/truecolor, you should be fine. (If something looks cursed, try another terminal and let me know in `#feedback`.)
+If your terminal supports decent UTF‑8 and 256‑color/truecolor, you should be fine. (If something looks wrong, try another terminal and let me know in `#suggestions`.)
 
 ---
 
@@ -74,8 +74,7 @@ If your terminal supports decent UTF‑8 and 256‑color/truecolor, you should b
 ### #Hashtag "channels"
 
 * Use tags like `#tui`, `#feedback`, `#gaming`, etc.
-* Switch views by selecting a tag in the sidebar
-* When you’re in a tag view, Jelly auto‑appends that tag to your post if you forget
+* Switch views by using commands you can find in /help
 * Feels like lightweight rooms without heavy channel management
 
 ###  Profiles
@@ -88,6 +87,7 @@ If your terminal supports decent UTF‑8 and 256‑color/truecolor, you should b
   
 * `/status text` – set a short status line under your name
 * Profile themes with different animated backgrounds (matrix, snow, inferno, etc.)
+* Bio to let people know about yourself
 
 ### ASCII avatars
 
@@ -119,7 +119,7 @@ On profiles:
 ```text
 /sign message   Sign someone’s guestbook
 (Your profile)  Typing plain text updates your status
-U               Edit your PFP (when viewing your own profile)
+^U               Edit your PFP (when viewing your own profile)
 Esc             Back to feed
 ```
 
@@ -162,7 +162,7 @@ No promises, but things I’d *like* to explore:
 If you’ve tried Jelly and something broke (or was just weird), you can:
 
 * Open an **issue** on this repo
-* Or hop into Jelly and drop a note in `#feedback`
+* Or hop into Jelly and drop a note in `#suggestions`
 
 Screenshots, terminal info (kitty, iTerm2, Windows Terminal, etc.), and OS details really help when debugging rendering issues.
 
@@ -189,7 +189,7 @@ Jelly is built and hosted by a single human who likes:
 * terminals
 * and the idea that not everything online has to feel like a growth‑hacked product
 
-If that resonates with you, you’re exactly who I built this for.
+If that speaks to you, you’re exactly who I built this for.
 
 If you made it this far, you probably already know how to find the server. 
 
