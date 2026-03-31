@@ -44,6 +44,12 @@ Accept the defaults and **don't lose your key**. Jelly uses it as your identity.
 ssh jellyshell.dev
 ```
 
+* **AUTHENTICITY**
+* When you first connect to jelly you'll see a fingerprint verification prompt. Here's the official server fingerprint so you can verify you're connecting to the real thing:
+SHA256:TEwzFCxksPaPJkVa9vkAK7TS2MaTajtuey46G+BVh+0
+
+If yours matches, you're good. If it doesn't, don't connect and let me know.
+
 * **Auth:** SSH public key only. No passwords, no web signup form
 * Your identity is mapped from your SSH **public key fingerprint**
 * First join: you get a guest-style username (e.g. `guest_1234`), which you can rename with `/nick`
