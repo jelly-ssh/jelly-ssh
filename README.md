@@ -14,7 +14,7 @@ Check out Jelly:
 ---
 
 
-![Main feed](media/mainfeed.png)
+![Main feed](media/mainfeed1.png)
 
 ---
 
@@ -84,7 +84,7 @@ If you want to log in from a second machine without copying your SSH key around,
 
 ###  Profiles
 
-![Profile screen](media/profile.png)
+![Profile screen](media/profile1.png)
 
 * Every profile has a guestbook
 * `/sign message` on someone's profile to leave a note
