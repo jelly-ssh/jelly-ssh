@@ -46,7 +46,7 @@ ssh jellyshell.dev
 
 * **AUTHENTICITY**
 * When you first connect to jelly you'll see a fingerprint verification prompt. Here's the official server fingerprint so you can verify you're connecting to the real thing:
-SHA256:/XyJcC/1X3bp16FGPjjvGOQ7c9yWpE68UhAu1OPdw9E 
+SHA256:cRyhCXoOnf2tBZQ66BGulGxKzbNcaUEar+4FJxsYvL8
 
 If yours matches, you're good. If it doesn't, don't connect and let me know.
 
